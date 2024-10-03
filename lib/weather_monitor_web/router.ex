@@ -18,6 +18,7 @@ defmodule WeatherMonitorWeb.Router do
     pipe_through :browser
 
     get "/", PageController, :home
+    live "/weather", WeatherMonitorWeb.WeatherLive  # Adicione esta linha para a rota LiveView
   end
 
   # Other scopes may use custom stacks.

@@ -2,8 +2,8 @@ import Config
 
 # Configure your database
 config :weather_monitor, WeatherMonitor.Repo,
-  username: "postgres",
-  password: "postgres",
+  username: "thaismarques",
+  password: "",
   hostname: "localhost",
   database: "weather_monitor_dev",
   stacktrace: true,

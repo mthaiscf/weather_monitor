@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard do Tempo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+        .card {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            margin: 10px;
+            padding: 20px;
+            width: 300px;
+            text-align: center;
+        }
+        .card h2 {
+            margin: 0;
+            font-size: 24px;
+        }
+        .card p {
+            font-size: 18px;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Dashboard do Tempo</h1>
+    </div>
+    <div class="container">
+        <div class="card">
+            <h2>Temperatura</h2>
+            <p><%= @temperatura %>°C</p>
+        </div>
+        <div class="card">
+            <h2>Umidade</h2>
+            <p><%= @umidade %>%</p>
+        </div>
+        <div class="card">
+            <h2>Vento</h2>
+            <p><%= @vento %>km/h</p>
+        </div>
+        <div class="card">
+            <h2>Descrição</h2>
+            <p><%= @descricao %></p>
+        </div>
+    </div>
+</body>
+</html>
