@@ -17,4 +17,6 @@ Ready to run in production? Please [check our deployment guides](https://hexdocs
   * Forum: https://elixirforum.com/c/phoenix-forum
   * Source: https://github.com/phoenixframework/phoenix
 
-Para visualizar o dashboard [`localhost:4000`](http://localhost:4000/weather) após rodar o projeto localmente com : 'mix phx.server'  
+## Dashboard de Tempo
+
+Para visualizar o dashboard [`localhost:4000/weather`](http://localhost:4000/weather) após rodar o projeto localmente com : 'mix phx.server'  
